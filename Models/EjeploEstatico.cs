@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace POO_static.Models
 {
-    public class EmeploEstatico
+    public class EjemploEstatico
     {
         public static string Nombre { get; set; }
         public static string Apellido { get; set; }
 
-        static EmeploEstatico ()
+        static EjemploEstatico ()
         {
             Nombre = "Zero";
             Apellido = " ";
