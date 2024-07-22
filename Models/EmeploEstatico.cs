@@ -7,15 +7,15 @@ namespace POO_static.Models
 {
     public class EmeploEstatico
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public static string Nombre { get; set; }
+        public static string Apellido { get; set; }
 
-        public EmeploEstatico ()
+        static EmeploEstatico ()
         {
             Nombre = "Zero";
             Apellido = " ";
         }
-        public void Saludo()
+        public static void Saludo()
         {
             Console.WriteLine($"Buenos dias Sr.{Nombre} {Apellido}");
         }
